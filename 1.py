@@ -1,0 +1,23 @@
+from math import *
+print("Please input the amount of sales")
+a = float(input())
+b = float(50000)
+c = float(75000)
+d = float(0.1)
+e = float(0.15)
+commission1 = a * float(d)
+commission2 = a * float(e)
+if a > b:
+    print(commission1)
+    print(".^.")
+    print(" |")
+    print(" |")
+    print(" |")
+    print("This is with 10% commission")
+if a > c:
+    print(commission2)
+    print(".^.")
+    print(" |")
+    print(" |")
+    print(" |")
+    print("This is with 15% commission")
