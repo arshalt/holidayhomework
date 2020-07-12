@@ -10,11 +10,11 @@ if a < b and a < c:
     print("Sorry, You do not meet the sales commission criteria")
 if a >= b and not (a >= c):
     print(commission1)
-    print(" ^ ")
-    print("/ \ ")
-    print(" |")
-    print(" |")
-    print(" |")
+    print("  ^ ")
+    print(" / \ ")
+    print("  |")
+    print("  |")
+    print("  |")
     print("This is with 10% commission")
 if a >= c:
     print(commission2)
@@ -24,5 +24,3 @@ if a >= c:
     print(" | ")
     print(" | ")
     print("This is with 15% commission")
-
-
